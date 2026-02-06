@@ -1,0 +1,16 @@
+Opgave 5.3
+Goldbachs Formodning
+Goldbachs formodning udtrykker en påstand om at alle lige heltal større end to er summen af to primtal. Denne formodning er hverken bevist eller modbevist. I denne opgave vil vi beskæftige os med følgende variation af påstanden:
+
+Ethvert lige heltal større end 6 kan udtrykkes som summen af to ulige primtal.
+Skriv et program der beviser denne formodning for alle lige heltal mellem to givne grænser. Eksempelvis for alle lige heltal mellem 7 og 2.000.000. Hvis du er i stand til at finde et modeksempel, er berømmelsen måske lige om hjørnet...
+
+Det foreslås at funktionen is_prime fra en tidligere opgave bruges ved løsningen af denne opgave.
+
+Det er for stor en mundfuld at løse dette problem uden opdeling i mindre delproblemer. Det foreslås derfor at I skriver en funktion, som undersøger påstanden for et bestemt lige heltal, n. Denne funktion kan så kaldes for alle lige heltal n mellem f.eks. 7 og 2.000.000.
+
+Hint: Når I skal bevise påstanden for et tal, n, anbefales det at gennemløbe alle mulige summer (n-i) + i, og dermed undersøge om I kan finde et i så både n-i og i er ulige primtal.
+
+Hvis I bliver hurtigt færdige med denne opgave bedes I se på den variant, der på Wikipedia beskrives som Goldbach's weak conjecture.
+
+Som en anden udfordring, kan det være interessant at se alle mulige summer- ikke kun den første. Eller denne variant: Hvilket af de testede tal har det største antal opløsninger?
