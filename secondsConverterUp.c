@@ -1,6 +1,5 @@
 /*
  * Program: secondsConverter
- * Forfatter: Theodor Fløe
  * Dato: 2. oktober 2025
  * Formål: Konverterer et antal sekunder til måneder, uger, dage, timer, minutter og sekunder
  * Input: Heltal, antal sekunder
